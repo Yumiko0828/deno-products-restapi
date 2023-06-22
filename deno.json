@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "oak": "https://deno.land/x/oak@v12.5.0/mod.ts",
+    "mongo": "https://deno.land/x/mongo@v0.31.2/mod.ts",
+    "dotenv": "https://deno.land/x/dotenv@v3.2.2/mod.ts",
+    "cors": "https://deno.land/x/cors@v1.2.2/oakCors.ts",
+    "std/": "https://deno.land/std@0.191.0/"
+  },
+  "tasks": {
+    "start": "deno run -A src/index.ts",
+    "dev": "deno run -A --watch src/index.ts"
+  }
+}
